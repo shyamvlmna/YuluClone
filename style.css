@@ -128,7 +128,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
 
 #videoText h1 {
     font-weight: bolder;
-    font-size: 4.375rem;
+   
     color: white;
 }
 
@@ -238,7 +238,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
     list-style: none;
     display: flex;
     justify-content: space-around;
-    font-size: 2rem;
+    font-size: 4rem;
     color: black;
     font-weight: 700;
 }
@@ -251,19 +251,21 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
 }
 
 .upperFooter {
-    height: 300px;
+    
     display: flex;
     justify-content: space-between;
 }
 
 
+
 footer {
     background-color: #071228;
-    height: 450px;
+    height: 100%;
     padding-top: 4%;
 }
 
 .lowerFooter {
+    height: 50px;
     background-color: #071228;
     border-top: 2px solid;
 }
@@ -315,3 +317,4 @@ footer {
 .title {
     text-align: center;
 }
+

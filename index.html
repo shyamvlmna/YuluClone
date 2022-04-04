@@ -23,7 +23,7 @@
             </div>
 
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-               <button class="navbar-toggler" type="button" data-toggle="collapse"
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -96,9 +96,15 @@
                 <h1>Moving India</h1>
                 <h1>towards a <span style="color: #00DCF7;;">sustainable future</span></h1>
                 <p>Micro-mobility solutions that help reduce traffic congestion and air pollution</p>
-                <button type="button" class="btn btn-primary btn-lg mt-5"><img class="mr-2"
+                <button onclick="watchVideo()" type="button" class="btn btn-primary btn-lg mt-5"><img class="mr-2"
                         src="assets/Video-Play-Icon.svg" alt="icon"> Watch Video</button>
             </div>
+
+            <script>
+                function watchVideo() {
+                    window.open("video.html");
+                }
+            </script>
 
         </section>
         <!-- first section end -->
@@ -212,7 +218,7 @@
             </a>
             <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                
+
             </a>
 
         </div>

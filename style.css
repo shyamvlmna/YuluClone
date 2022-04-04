@@ -128,7 +128,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
 
 #videoText h1 {
     font-weight: bolder;
-   
+
     color: white;
 }
 
@@ -251,7 +251,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
 }
 
 .upperFooter {
-    
+
     display: flex;
     justify-content: space-between;
 }
@@ -318,3 +318,60 @@ footer {
     text-align: center;
 }
 
+
+
+.text-center {
+
+    display: flex;
+    justify-content: center;
+}
+
+.news-sec {
+    display: flex;
+
+}
+
+p.card-text.d-none.d-md-block {
+    color: black;
+}
+
+h5.card-title {
+    color: #333333;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+#section4 {
+    padding: 80px 0;
+    overflow: hidden;
+}
+
+.common_card_wrapper {
+
+    border: none;
+    border-radius: 0rem;
+    text-align: left;
+    max-width: 100%;
+    width: 100%;
+}
+
+.customerReview {
+    display: block;
+}
+
+.customer {
+    display: flex;
+    flex-direction: row;
+}
+
+.reviews {
+    width: 70%;
+}
+
+.customerReview {
+    width: 30%;
+}
+
+.section5 {
+    overflow: hidden;
+}

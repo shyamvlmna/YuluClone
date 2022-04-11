@@ -330,15 +330,24 @@ footer {
     display: flex;
 
 }
+.card.common_card_wrapper {
+    height: 100%;
+}
 
 p.card-text.d-none.d-md-block {
     color: black;
 }
-
+.leftupperfooter.row {
+    justify-content: center;
+}
 h5.card-title {
     color: #333333;
     font-size: 1.25rem;
     font-weight: 600;
+}
+
+.rightUpperFooter.mx-auto {
+width: 320px;
 }
 
 #section4 {
